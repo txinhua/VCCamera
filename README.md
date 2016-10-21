@@ -1,4 +1,4 @@
-# VCPictureTaker
+# VCCamera
 
 A library for make a Camera.
 
@@ -8,11 +8,11 @@ iOS 7.0+
 
 ##How to use it for your project?
 
-VCPictureTaker is available through use CocoaPods.
+VCCamera is available through use CocoaPods.
 
 To install it, simply add the following line to your Podfile:
 
-pod 'VCPictureTaker'
+pod 'VCCamera'
 Or you can drag the VCPictureTaker folder to your project.
 
 #License

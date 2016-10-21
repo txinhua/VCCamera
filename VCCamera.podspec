@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "VCPictureTaker"
+  s.name         = "VCCamera"
   s.version      = "1.0"
   s.summary      = "A library for make a Camera."
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   1. Create and Use Camera to take picture easily.
                    DESC
 
-  s.homepage     = "https://github.com/txinhua/VCPictureTaker"
+  s.homepage     = "https://github.com/txinhua/VCCamera"
   s.license      = { :type => "Apache License", :file => "LICENSE" }
 
   s.author             = { "gftang" => "gftang@vcainfo.com" }
@@ -17,12 +17,12 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/txinhua/VCPictureTaker.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/txinhua/VCCamera.git", :tag => s.version }
 
   s.source_files  = "VCPictureTaker/*.{h,m}"
 
   s.resources = "VCPictureTaker/Resources/*"
 
-  s.frameworks = "UIKit",""
+  s.frameworks = "UIKit","ImageIO","Foundation","AVFoundation","Photos","AssetsLibrary"
 
 end
